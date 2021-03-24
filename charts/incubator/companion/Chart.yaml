@@ -1,0 +1,24 @@
+apiVersion: v2
+appVersion: v2.1.2
+description: Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.
+name: companion
+version: 0.0.1
+kubeVersion: ">=1.16.0-0"
+keywords:
+- elgato
+- streamdeck
+- bitfocus
+- companion
+- streaming
+home: https://github.com/k8s-at-home/charts/tree/master/charts/incubator/companion
+icon: https://github.com/bitfocus/companion/blob/master/assets/icon.png?raw=true
+sources:
+- https://github.com/bitfocus/companion
+- https://hub.docker.com/repository/docker/mathiasewald/companion
+maintainers:
+- name: mathiasewald
+  email: mathias.ewald@googlemail.com
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 1.0.0
